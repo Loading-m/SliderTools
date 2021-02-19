@@ -194,7 +194,7 @@
             }
             document.onmouseup = function (e) {
                 util.setInlineStyle([self.handler,self.drag_bg], 'transition', 'all .2s ease');
-                util.setClassName(self.slider, '')
+//                 util.setClassName(self.slider, '')
                 if (self.flag) {
                     util.setClassName(self.slider, 'slide_ok')
                     util.addClass(self.handler, 'handler_ok_bg')
