@@ -1,0 +1,8 @@
+# prettier config
+printWidth: 160
+tabWidth: 4
+useTabs: true
+singleQuote: true
+semi: false
+jsxBracketSameLine: true
+endOfLine: crlf

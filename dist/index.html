@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>拖动滑块验证</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<script src="SliderTools.js"></script></head>
+	<body>
+		<div class="slider"></div>
+		<script>
+			let slider = new SliderTools({
+				el: document.querySelector('.slider'),
+			})
+			slider.on('complete', function () {
+				alert('验证完成')
+			})
+		</script>
+	</body>
+</html>
